@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "cd db && npx prisma migrate dev --name='initial migration' && cd .. && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "next lint"
   },
   "dependencies": {
