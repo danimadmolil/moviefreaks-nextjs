@@ -2,9 +2,7 @@
   "name": "movie-freak",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "16.17.0"
-  },
+
   "scripts": {
     "dev": "cd db && npx prisma migrate dev --name='initial migration' && cd .. && next dev",
     "build": "next build",
